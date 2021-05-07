@@ -1,0 +1,15 @@
+{
+  "name": "tpi",
+  "version": "1.0.0",
+  "description": "\"prueba tpi\"",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js --standalone jslane -o ./dist/jslane.js"
+  },
+  "author": "\"majo\"",
+  "license": "ISC"
+}
